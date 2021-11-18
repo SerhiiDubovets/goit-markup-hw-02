@@ -1,0 +1,91 @@
+:root{
+    --primary-text-color:#212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+body{
+    background-color: #ffffff;
+    color: var(--title-text-color);
+}
+
+.list{
+    list-style: none;
+}
+
+/* Шапка */
+
+.header{
+    background-color: #ffffff;
+}
+
+.logo {
+    color: #000000;
+}
+
+.logo-web{
+    color: var(--accent-color);
+}
+
+.site-nav .link{
+    color: var(--primary-text-color);
+}
+
+.site-nav .link:hover, .site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+.auth-nav .link{
+    color: var(--title-text-color);
+}
+
+.auth-nav .link:hover, .auth-nav:focus{
+    color: var(--accent-color)
+}
+
+/* Заказ услуги  */
+
+.hero{
+    background-color: #2F303A;
+}
+
+.button{
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+.hero-title{
+    color: #FFFFFF;
+}
+
+/* Особенности компании */
+
+.features-list  .title{
+    color: var(--primary-text-color);
+}
+
+/* Чем мы занимаемся */
+
+.section-title  {
+    color: var(--primary-text-color);
+}
+
+/* Наша команда */
+
+.command{
+    background-color: #F5F4FA;
+}
+
+.section.command .title{
+    color: var(--primary-text-color);
+}
+
+/* footer */
+
+.footer{
+    background-color: #2F303A;
+}
+
+.footer-logo{
+    color: #ffffff;
+}
