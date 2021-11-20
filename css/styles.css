@@ -209,4 +209,9 @@ body {
 .lists-text {
   font-size: 16px;
   line-height: 1.88;
+  color: #212121;
+}
+
+.lists-texts {
+  color: var(--title-text-color);
 }
